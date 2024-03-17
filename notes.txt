@@ -1,0 +1,5 @@
+cd ../emsdk
+source ./emsdk_env.sh
+cd ../emscripten-hello-world
+emcc --version
+emcc hello_world.c
